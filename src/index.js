@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 // import A, { CompB as B } from './components/DoisComponents';
 // import { CompA, CompB as B } from './components/DoisComponents';
 // import MultiElementos from './components/MultiElementos';
-import FamiliaSilva from './components/FamiliaSilva';
+// import FamiliaSilva from './components/FamiliaSilva';
 import Familia from './components/Familia';
 import Membro from './components/Membro';
 
@@ -12,10 +12,12 @@ const elemento = document.getElementById('root');
 
 ReactDOM.render(
   <div>
-    <Familia sobrenome="">
-      <Membro nome="" />
+    <Familia sobrenome="Pereira">
+      <Membro nome="Andre" />
+      {/* <Membro nome="Mariana" /> */}
     </Familia>
-    <FamiliaSilva />
+
+    {/* <FamiliaSilva /> */}
 
     {/* <Familia>
       <Membro nome="Andre" sobrenome="Pereira" />
